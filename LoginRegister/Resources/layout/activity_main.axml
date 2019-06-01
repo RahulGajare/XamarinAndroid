@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/linearLayout1"
+	android:background ="@drawable/Green">
+	<EditText
+		android:layout_marginTop="59.5dp"
+		android:hint="Enter your Email"
+		android:id="@+id/login_email"
+		android:inputType="textCapWords"
+		android:paddingHorizontal ="20dp"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:maxLines="1"
+		android:layout_width="match_parent"
+		android:layout_height="100dp" />
+	<EditText
+		android:layout_marginTop="15dp"
+		android:hint="Enter your Password"
+		android:paddingHorizontal ="20dp"
+		android:id="@+id/login_email"
+		android:inputType="textCapWords"
+		android:maxLines="1"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:layout_width="match_parent"
+		android:layout_height="100dp" />
+	<Button
+		android:text="Login"
+		android:layout_marginTop="50dp"
+		android:layout_width="150dp"
+		android:layout_height="60dp"
+		android:layout_gravity="center"
+		android:id="@+id/button1"
+		android:background="#ff83dc7f" 
+		android:alpha="0.25"
+		/>
+	<TextView
+		android:layout_marginTop="10dp"
+		android:text="OR"
+		android:textSize="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="center"
+		android:id="@+id/textView1"
+		android:textColor="#ff1c3df3" />
+	<Button
+		android:layout_marginTop="10dp"
+		android:text="Register"
+		android:layout_width="150dp"
+		android:layout_height="60dp"
+		android:layout_gravity="center"
+		android:id="@+id/Register_clicked"
+		android:background="#ff18ffff" />
+	<Button
+		android:text="Button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button2" />
+	</LinearLayout>
+	
+	

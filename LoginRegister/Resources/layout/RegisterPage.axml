@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation = "vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_margin = "20dp"
+	android:id = "@+id/Register_activity"
+	android:background ="@drawable/Register">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_margin="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+		<EditText
+			android:layout_marginTop="50dp"
+			android:hint="First Name"
+			android:id="@+id/FirstName"
+			android:inputType="text"
+			android:maxLines="1"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			 />
+		<EditText
+			android:layout_marginTop="50dp"
+			android:hint="Last Name"
+			android:id="@+id/LastName"
+			android:inputType="text"
+			android:maxLines="1"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			 />
+		</LinearLayout>
+	
+		<EditText
+		android:layout_marginTop="50dp"
+		android:hint="Enter your Email"
+		android:id="@+id/Email"
+		android:inputType="text"
+		android:layout_marginLeft="2dp"
+		android:layout_marginRight="15dp"
+		android:maxLines="1"
+		android:layout_width="match_parent"
+		
+		android:layout_height="wrap_content" />	
+		<EditText
+		android:layout_marginTop="50dp"
+		android:hint="Enter your Password"
+		android:id="@+id/Password"
+		android:inputType="text"
+		android:layout_marginLeft="2dp"
+		android:layout_marginRight="15dp"
+		android:maxLines="1"
+		android:layout_width="match_parent"
+		
+		android:layout_height="wrap_content" />
+	<Button
+		android:layout_marginTop="20dp"
+		android:layout_gravity = "center"
+		android:text="Register"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/Register2"
+		android:background="#ff50ff79" />	
+	
+</LinearLayout>
+	
+

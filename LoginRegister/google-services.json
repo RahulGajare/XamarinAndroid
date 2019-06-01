@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1066445016371",
+    "firebase_url": "https://xamarin-native.firebaseio.com",
+    "project_id": "xamarin-native",
+    "storage_bucket": "xamarin-native.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066445016371:android:0b006fe6eba3ab60",
+        "android_client_info": {
+          "package_name": "LoginRegister.LoginRegister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066445016371-binj1141o0fk4tiburrq5q9anikidd29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeMViGyIEZGOPBdkxb4HxHcqo7SzqbyWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066445016371-binj1141o0fk4tiburrq5q9anikidd29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
